@@ -44,7 +44,7 @@
     font-size:28px;
     padding-left:26%;
     margin-top:-75px;
-    padding-bottom:40px;
+    padding-bottom:60px;
 }
 .button {
     color: #090909;
@@ -91,6 +91,7 @@
     flex-flow:wrap;
     padding-left:230px;
     gap:25px;
+    padding-bottom:50px;
 }
 .contents img{
     padding:30px;
