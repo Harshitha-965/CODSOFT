@@ -20,10 +20,12 @@
     width:40%;
     display:flex;
     justify-content:space-evenly;
+    text-decoration:none;
 }
 .home{
     position:relative;
     background-color:#c3fcff;
+    padding-bottom:50px;
 }
 .home h2{
     font-size:100px;
@@ -35,12 +37,22 @@
     padding-top:20px;
     padding-bottom:80px;
 }
+.home h4 span{
+    color:#ff73f8;
+}
+.home h5{
+    font-size:28px;
+    padding-left:26%;
+    margin-top:-75px;
+    padding-bottom:40px;
+}
 .button {
     color: #090909;
     padding:15px 25px;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight:550;
     border-radius: 50px;
-    background:hwb(293 65% 6%);
+    background:#ff73f8;
     cursor: pointer;
     border: 1px solid #e8e8e8;
     transition: all 0.3s;
@@ -53,15 +65,43 @@
 }
 .home p{
     padding-left:30%;
-    padding-bottom:50px;
 }
 .home img{
-    float:inline-end;
+    float:right;
     margin-top:-250px;
     border-radius:65px;
-    display:inline-block;
     width:450px;
     margin-right:150px;
 }
+.contents{
+    position:relative;
+    text-align:center;
+    padding-bottom:50px;
+}
+.contents h3{
+    font-size:55px;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.contents h3 span{
+    color:#ff73f8;
+}
+.container{
+    display:flex;
+    flex-flow:wrap;
+    padding-left:230px;
+    gap:25px;
+}
+.contents img{
+    padding:30px;
+    border:2px solid;
+    border-radius:15px;
+}
+.contents p{
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
   
   
