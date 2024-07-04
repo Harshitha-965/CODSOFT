@@ -102,7 +102,54 @@
     font-size:25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.offers{
+    position:relative;
+    display:flex;
+    gap:30px;
+    padding-top:50px;
+    padding-left:240px;
+    
+}
+.of h2{
+    font-size:110px;
+    padding-left:500px;
+    padding-top:50px;
+}
+.offers h4{
+    font-size:50px;
+    margin-top:-20px;
+}
+.offers p{
+    font-size:25px;
+    
+}
+.offers img{
+    padding-top:20px;
+}
+.offers h3{
+    padding-left:100px;
+    font-size:60px;
+}
+.offers h3 span{
+    color:#ff73f8;
+}
+.off p{
+    padding-left:100px;
+    padding-top:10px;
+    font-size:50px;
+}
+.off h3{
+    margin-top:-20px;
+}
+.off h5{
+    font-size:30px;
+    padding-left:180px;
+    padding-top:10px;
+}
+.off img{
+    padding-left:150px;
+}
 
 
-  
+
   
