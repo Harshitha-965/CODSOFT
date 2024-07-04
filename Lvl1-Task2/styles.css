@@ -8,24 +8,28 @@
     position:fixed;
     padding:30px 50px;
     width:100%;
-    background-color:hwb(293 65% 6%);
+    background-color:#e7a6f0;
     display:flex;
     justify-content:space-between;
     font-size:30px;
     text-decoration:none;
     z-index:100;
 }
-.nav{
+.nav {
     font-size:30px;
     width:40%;
     display:flex;
     justify-content:space-evenly;
+}
+.nav,header a{
     text-decoration:none;
 }
 .home{
     position:relative;
     background-color:#c3fcff;
     padding-bottom:50px;
+    height:100vh;
+    width:100vw;
 }
 .home h2{
     font-size:100px;
