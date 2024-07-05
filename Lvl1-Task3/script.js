@@ -15,7 +15,12 @@ const calculate=(btnValue)=>{
     }
     else{
         if(output==="" && specialChars.includes(btnValue)) return;
+        output+=btnValue;
     }
     display.value=output;
-}
+};
+buttons.forEach((button)=>{
+    button.addEventListener("click",(e)=>calculate(e.target.dataset.value));
+});
+
 
