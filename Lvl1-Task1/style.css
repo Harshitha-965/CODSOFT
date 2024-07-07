@@ -585,71 +585,7 @@ section{
     font-size:20px;
     color:black;
 }
-@media screen (max-width:480px) {
-    .navbar a{
-        display:inline-block;
-        font-size:15px;
-        color:hwb(0 100% 0%);
-        text-decoration:none;
-        font-weight:300;
-        margin-left:35px;
-        transition:0.5s;
-    }
-    .navbar a:hover{
-        color:hsl(0, 0%, 100%);
-    }
-    .home{
-        position:relative;
-        width:100%;
-        justify-content:space-between;
-        height:100vh;
-        background:url("port.jpeg") no-repeat;
-        background-size:cover;
-        background-position:center;
-        display:flex;
-        align-items:center;
-        padding:175px 7% 0;
-    }
-    .home-content{
-        max-width:290px;
-    }
-    .home-content h3{
-        font-size:18px;
-        font-weight:300;
-    }
-    .home-content h1{
-        font-size:36px;
-        font-weight:500;
-        margin:-3px 0;
-        color:#ecb939;
-    }
-    .home-content p{
-        font-size:15px;
-    }
-    .home-sci a{
-        width:28px;
-        height:28px;
-        background:transparent;
-        border:1px solid #ecb939;
-        border-radius:50%;
-        font-size:14px;
-        color:#ecb939;
-        text-decoration:none;
-        margin:30px 15px 30px 0px;
-    }
-    .btn-box{
-        display:inline-block;
-        padding:12px 48px;
-        background:hsl(43, 60%, 61%);
-        border-radius:25px;
-        font-size:15px;
-        text-decoration:none;
-        color:#000000;
-        font-weight:500;
-        letter-spacing:1px;
-    }
-    
-}
+
 
 
    
